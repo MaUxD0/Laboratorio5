@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Producto </title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <nav class="filters"><a href="index.html" class="back-to-home">
+            <img src="flecha-hacia-atras.png" alt="Flecha Volver" class="icono-flecha"> Volver a la tienda
+        </a>
+        
+        </nav>
+    </header>
+
+    <section class="product-detail-section">
+        <div class="product-detail">
+            <div class="product-image-gallery">
+                <div class="main-image">
+                    <img src="png-clipart-trunks-swimsuit-women-s-beachwear-fashion-shorts-seahorse-seahorse.png" alt="Producto 1" id="featured-image">
+                </div>
+                <div class="thumbnail-images">
+                    <img src="png-clipart-trunks-green-shorts-beach-short-trunks-swimsuit-bottom-thumbnail.png" alt="Miniatura 1" onclick="changeImage('producto1.jpg')">
+                    <img src="png-clipart-trunks-swimsuit-women-s-beachwear-fashion-shorts-father-seahorse-thumbnail.png" alt="Miniatura 2" onclick="changeImage('producto1-2.jpg')">
+                    <img src="pngegg (1).png" alt="Miniatura 3" onclick="changeImage('producto1-3.jpg')">
+                </div>
+            </div>
+
+            <div class="product-info">
+                <h2>Pantaloneta de Playa</h2>
+                <div class="rating">
+                    ★★★★☆ <span>(120 valoraciones)</span>
+                </div>
+                <p class="price">$100</p>
+                <p class="description">
+                    Este es un producto de alta calidad que te proporcionará comodidad y estilo. Su diseño es perfecto para una tarde en la playa.
+                </p>
+                <ul class="product-specs">
+                    <li><strong>Material:</strong> Cuero sintético</li>
+                    <li><strong>Tamaño:</strong> Disponible en varias tallas</li>
+                    <li><strong>Color:</strong> Negro, verde y azul</li>
+                    <li><strong>Garantía:</strong> 1 año</li>
+                </ul>
+                <div class="product-actions">
+                    <button class="add-to-cart">Añadir al carrito</button>
+                    <a href="index.html" class="back-to-shop">Seguir comprando</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="related-products-section">
+        <h3>Productos Relacionados</h3>
+        <div class="related-products-grid">
+            <div class="related-product-item">
+                <img src="pngegg (2).png" alt="Producto 2">
+                <h4>Calzoncillos de suchi</h4>
+                <p>$150</p>
+                <a href="product_detail.html">Ver más detalles</a>
+            </div>
+            <div class="related-product-item">
+                <img src="pngegg (3).png" alt="Producto 3">
+                <h4>Pantaloneta de rallas</h4>
+                <p>$200</p>
+                <a href="product_detail.html">Ver más detalles</a>
+            </div>
+            <div class="related-product-item">
+                <img src="pngegg (4).png" alt="Producto 4">
+                <h4>Pantaloneta azul</h4>
+                <p>$120</p>
+                <a href="product_detail.html">Ver más detalles</a>
+            </div>
+        </div>
+</body>
+</html>
